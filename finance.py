@@ -100,7 +100,7 @@ class FinanceTrackerApp:
 
     def display_balance(self) -> None:
         print("\n" + "=" * 35)
-        print(f"         FINANCIAL SUMMARY FOR {self.user.name.upper()}")
+        print(f"\t  FINANCIAL SUMMARY FOR {self.user.name.upper()}")
         print("=" * 35)
         print(f"Monthly Income:   ${self.user.monthly_income:,.2f}")
         print(f"Total Savings:    ${self.user.saved_money:,.2f}")
